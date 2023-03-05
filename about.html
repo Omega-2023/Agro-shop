@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content=:with=device-width, initial-scale=1.0">
+    <title>Telliv Control</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
+<link rel="stylesheet" href="bootstrap.css">
+<script src="bootstrap.js"></script>
+</head>
+<body>
+<section  class="sub-header">
+     <nav>
+         <a herf=".html"><img src="images/logo3.png" class="logo"></a>  
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                 <li><a href="Index.html">HOME</a></li>
+                 <li id="active_link"><a href="about.html">ABOUT</a></li>
+                 <li><a href="products.html">PRODUCTS</a></li>
+                 <li><a href="order_now.html">ORDER NOW</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <h1>About Us</h1>
+        </section>
+
+        <!-----------about us content--------------->
+        <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Best Company in Town</h1>
+                <p>Telliv Control was Established by Euson Arthur's Family in 2022.<br>
+                    Mr. Esuon, who is the current CEO for Telliv Control.<br> We basically
+                    deals in Distribution, Wholeseal and Retail of all kinds of Shoes,
+                    Protective Materials,<br> Womans wears, Men's Cloths, servicing of medical equipments and many more .
+                    We also offer Delivery services.</p>  
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/mmm.jpg" class="d-block w-100" alt="images/about2.jpg">
+                      </div>
+        </section>
+       
+
+<!--------- Footer ----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+     <p`>Telliv Control was Established by Euson Arthur's Family in 2022.<br>
+        Mr. Esuon, who is the current CEO for Telliv Control.<br> We basically
+        deals in Distribution, Wholeseal and Retail of all kinds of Shoes,
+        Protective Materials,<br> Womans wears, Men's Cloths, servicing of medical equipments and many more .
+        We also offer Delivery services.</p>
+            <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+             </div>
+            <p>Made with <i class="fa fa-heart-o"></i> Nambo Omega Ndoh</p>
+ </section>
+
+       
+
+
+
+
+<!------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

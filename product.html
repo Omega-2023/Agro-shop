@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content=:with=device-width, initial-scale=1.0">
+    <title>Nambo's Agrochemical Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/logo3.png" type="image/x-icon">
+</head>
+<body>
+<section  class="sub-header">
+     <nav>
+         <a herf=".html"><img src="images/logo3.png" class="logo"></a>  
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                 <li><a href="Index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li id="active_link"><a href="products.html">PRODUCTS</a></li>
+                 <li><a href="order_now.html">ORDER NOW</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Products</h1>
+
+ </section>
+        
+        <!-------------- products----------->
+
+        <section class="products">
+            <p>List Of Products Availabe On Sale</p>
+        
+            <div class="products-row">
+                <div class="products-col">
+                    <img src="images/hospital.jpeg">
+                    <h3>HOSPITAL MACHINE</h3>
+                    <p>For more purchase please contact us </p>
+                </div>
+                <div class="products-col">
+                    <img src="images/women.jpeg">
+                    <h3>WOMEN'S DRESS</h3>
+                    <p>For more purchase please contact us</p>
+                </div>
+                <div class="products-col">
+                    <img src="images/shirt.jpeg">
+                    <h3>MEN'S SHIRT</h3>
+                    <p>For more purchase please contact us</p>
+                </div>
+                <div class="products-col">
+                    <img src="images/shoe.jpeg">
+                    <h3>CLASSIC SHOES</h3>
+                    <p>For more purchase please contact us. </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--------------- Feedbacks ------------------->
+
+        <section>
+            <div class="Feedbacks">
+                <h1>Feedbacks from Customers</h1>
+                <p>Esuon Arthur Company LTD.</p>
+        
+                    <div class="Feedbacks-row">
+                        <div class="Feedbacks-col">
+                            <img src="images/vvv.jpeg">
+                            <div>
+                                <p>Esuon Arthur Company LTD is the best place to buy all your clothens from.
+                                    I bought a wedding dress and shoes and sandals from their shop
+                                    abd things went on well for me Thank you.</p>
+                                    <h3>Ama Anita</h3>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                            </div>
+                            <div class="Feedbacks-col">
+                        <img src="images/sss.jpeg">
+                        <div>
+                            <p>Esuon Arthur Company LTD is the best place to contact, if you need someone
+                                to arrange and your hospital equipmentsfor you  Thank you..</p>
+                                <h3>Kwame Boah</h3>
+                                <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                            </div>
+                        </div>
+                        <div class="Feedbacks-col">
+                            <img src="images/iss.jpeg">
+                            <div>
+                                <p>Esuon Arthur Company LTD is the best place to buy all kinds of fashion wears.
+                                    I bought a sandals and couple of shoes from their shop
+                                    and up till now their products are the best in market  Thank you.</p>
+                                <h3>Kofi OSei</h3>
+                                <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                    <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+         </section>
+
+        <!--------- Footer ----------->
+        <section class="footer">
+                <h4>About Us</h4>
+                <p>Esuon Arthur Company LTD was Established by Esuon's Family in 2022.<br>
+                    Mr. Esuon, who is the current CEO for Esuon Arthur Company LTD.<br> We basically
+                    deals in Distribution, Wholeseal and Retail of all kinds of Shoes,
+                    Protective Materials,<br> Womans wears, Men's Cloths, Fixing of hospital equipments and many more .
+                    We also offer Delivery services.</p>
+                    <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                    <p>Made with <i class="fa fa-heart-o"></i> Nambo Omega Ndoh</p>
+        </section>
+
+       
+
+
+
+
+
+<!------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
